@@ -1,0 +1,13 @@
+{
+    "name"         : "node-red-contrib-lower",
+    "version"      : "0.0.1",
+    "description"  : "A sample node for node-red to convert lower case",
+    "dependencies": {
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "lower": "lower/lower.js"
+        }
+    }
+}
