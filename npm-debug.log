@@ -1,106 +1,103 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '.',
-1 verbose cli   '-g' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@1.4.9
 3 info using node@v0.10.28
 4 verbose node symlink /usr/local/bin/node
-5 verbose cache add [ '.', null ]
-6 verbose cache add name=undefined spec="." args=[".",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '.',
-7 verbose parsed url   path: '.',
-7 verbose parsed url   href: '.' }
-8 silly lockFile 3a52ce78- .
-9 verbose lock . /home/sinish/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz',
-10 verbose tar pack   '.' ]
-11 verbose tarball /home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-12 verbose folder .
-13 info prepublish node-red-contrib-lower@0.0.1
-14 silly lockFile 1f1177db-tar tar://.
-15 verbose lock tar://. /home/sinish/.npm/1f1177db-tar.lock
-16 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-17 verbose lock tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz /home/sinish/.npm/2f63275a-42394-0-5867000778671354-tmp-tgz.lock
-18 silly lockFile 1f1177db-tar tar://.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/sinish/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+13 verbose folder .
+14 info prepublish node-red-contrib-lower@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/sinish/.npm/1f1177db-tar.lock
+17 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+18 verbose lock tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz /home/sinish/.npm/109aac8a-58113-0-3286547278985381-tmp-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-21 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-22 verbose tar unpack /home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-23 silly lockFile dd459a68--red-contrib-lower-0-0-1-package tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package
-24 verbose lock tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package /home/sinish/.npm/dd459a68--red-contrib-lower-0-0-1-package.lock
-25 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-26 verbose lock tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz /home/sinish/.npm/2f63275a-42394-0-5867000778671354-tmp-tgz.lock
-27 silly gunzTarPerm modes [ '755', '644' ]
-28 silly gunzTarPerm extractEntry package.json
-29 silly gunzTarPerm modified mode [ 'package.json', 511, 493 ]
-30 silly gunzTarPerm extractEntry .npmignore
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+22 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+23 verbose tar unpack /home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+24 silly lockFile dd459a68--red-contrib-lower-0-0-1-package tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package
+25 verbose lock tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package /home/sinish/.npm/dd459a68--red-contrib-lower-0-0-1-package.lock
+26 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+27 verbose lock tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz /home/sinish/.npm/109aac8a-58113-0-3286547278985381-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 511, 493 ]
 31 silly gunzTarPerm extractEntry README.md
 32 silly gunzTarPerm extractEntry LICENSE
 33 silly gunzTarPerm extractEntry lower/lower-case.js
 34 silly gunzTarPerm extractEntry lower/lower-case.html
 35 silly lockFile dd459a68--red-contrib-lower-0-0-1-package tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package
 36 silly lockFile dd459a68--red-contrib-lower-0-0-1-package tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package
-37 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
-38 silly lockFile 2f63275a-42394-0-5867000778671354-tmp-tgz tar:///home/sinish/tmp/npm-19810-1S88w5ig/1467181142394-0.5867000778671354/tmp.tgz
+37 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
+38 silly lockFile 109aac8a-58113-0-3286547278985381-tmp-tgz tar:///home/sinish/tmp/npm-27833-RWRpB8x_/1467183658113-0.3286547278985381/tmp.tgz
 39 silly lockFile 3a52ce78- .
 40 silly lockFile 3a52ce78- .
-41 silly resolved [ { name: 'node-red-contrib-lower',
-41 silly resolved     version: '0.0.1',
-41 silly resolved     description: 'A sample node for node-red to convert lower case',
-41 silly resolved     dependencies: {},
-41 silly resolved     keywords: [ 'node-red' ],
-41 silly resolved     'node-red': { nodes: [Object] },
-41 silly resolved     readme: '# node-red-contrib-twitter-stream\r\nnode-red node for accessing the Twitter streaming API (based on https://github.com/desmondmorris/node-twitter/)\r\n\r\n## Installation\r\nnpm -g install node-red-contrib-twitter-stream\r\n\r\n## Features\r\n- connect to the Twitter streaming API and get tweets of specific users (follow)\r\n- connect to the Twitter streaming API and get tweets of specific topics (track)\r\n \r\n## Configuration\r\n- Get a Twitter dev account from https://dev.twitter.com\r\n- Create a Twitter App on https://apps.twitter.com\r\n- Choose Twitter users / hashtags or random search strings\r\n',
-41 silly resolved     readmeFilename: 'README.md',
-41 silly resolved     _id: 'node-red-contrib-lower@0.0.1',
-41 silly resolved     _shasum: 'a90840eaaffaa2833783109f9a4957a4bd88b450',
-41 silly resolved     _from: '.' } ]
-42 info install node-red-contrib-lower@0.0.1 into /usr/local/lib
-43 info installOne node-red-contrib-lower@0.0.1
-44 info /usr/local/lib/node_modules/node-red-contrib-lower unbuild
-45 verbose tar unpack /home/sinish/.npm/node-red-contrib-lower/0.0.1/package.tgz
-46 silly lockFile b2c34a7a-e-modules-node-red-contrib-lower tar:///usr/local/lib/node_modules/node-red-contrib-lower
-47 verbose lock tar:///usr/local/lib/node_modules/node-red-contrib-lower /home/sinish/.npm/b2c34a7a-e-modules-node-red-contrib-lower.lock
-48 silly lockFile 24f86cb4--contrib-lower-0-0-1-package-tgz tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package.tgz
-49 verbose lock tar:///home/sinish/.npm/node-red-contrib-lower/0.0.1/package.tgz /home/sinish/.npm/24f86cb4--contrib-lower-0-0-1-package-tgz.lock
-50 silly gunzTarPerm modes [ '755', '644' ]
-51 error Error: EACCES, mkdir '/usr/local/lib/node_modules/node-red-contrib-lower'
-51 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/node-red-contrib-lower']
-51 error   errno: 3,
-51 error   code: 'EACCES',
-51 error   path: '/usr/local/lib/node_modules/node-red-contrib-lower',
-51 error   fstream_type: 'Directory',
-51 error   fstream_path: '/usr/local/lib/node_modules/node-red-contrib-lower',
-51 error   fstream_class: 'DirWriter',
-51 error   fstream_stack:
-51 error    [ '/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-51 error      '/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
-51 error      'Object.oncomplete (fs.js:107:15)' ] }
-52 error Please try running this command again as root/Administrator.
-53 error System Linux 2.6.38-8-generic
-54 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "." "-g"
-55 error cwd /home/sinish/www/shiju/node-red-contrib-lowercase/node-red-contrib-lowercase
-56 error node -v v0.10.28
-57 error npm -v 1.4.9
-58 error path /usr/local/lib/node_modules/node-red-contrib-lower
-59 error fstream_path /usr/local/lib/node_modules/node-red-contrib-lower
-60 error fstream_type Directory
-61 error fstream_class DirWriter
-62 error code EACCES
-63 error errno 3
-64 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/node-red-contrib-lower'
-65 error fstream_stack /usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-65 error fstream_stack /usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
-65 error fstream_stack Object.oncomplete (fs.js:107:15)
-66 verbose exit [ 3, true ]
+41 silly publish { name: 'node-red-contrib-lower',
+41 silly publish   version: '0.0.1',
+41 silly publish   description: 'A sample node for node-red to convert lower case',
+41 silly publish   dependencies: {},
+41 silly publish   keywords: [ 'node-red' ],
+41 silly publish   'node-red': { nodes: { lower: 'lower/lower.js' } },
+41 silly publish   readme: '# node-red-contrib-twitter-stream\r\nnode-red node for accessing the Twitter streaming API (based on https://github.com/desmondmorris/node-twitter/)\r\n\r\n## Installation\r\nnpm -g install node-red-contrib-twitter-stream\r\n\r\n## Features\r\n- connect to the Twitter streaming API and get tweets of specific users (follow)\r\n- connect to the Twitter streaming API and get tweets of specific topics (track)\r\n \r\n## Configuration\r\n- Get a Twitter dev account from https://dev.twitter.com\r\n- Create a Twitter App on https://apps.twitter.com\r\n- Choose Twitter users / hashtags or random search strings\r\n',
+41 silly publish   readmeFilename: 'README.md',
+41 silly publish   _id: 'node-red-contrib-lower@0.0.1',
+41 silly publish   _shasum: '5df8bccb69c9dbb962226c51242294bc6fe1b1cf',
+41 silly publish   _from: '.' }
+42 verbose url raw node-red-contrib-lower
+43 verbose url resolving [ 'https://registry.npmjs.org/', './node-red-contrib-lower' ]
+44 verbose url resolved https://registry.npmjs.org/node-red-contrib-lower
+45 info trying registry request attempt 1 at 12:30:58
+46 http PUT https://registry.npmjs.org/node-red-contrib-lower
+47 http 403 https://registry.npmjs.org/node-red-contrib-lower
+48 verbose headers { 'content-type': 'application/json',
+48 verbose headers   'cache-control': 'max-age=300',
+48 verbose headers   'content-length': '95',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   date: 'Wed, 29 Jun 2016 07:01:00 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1467183659.660484,VS0,VE1027',
+48 verbose headers   vary: 'Accept-Encoding' }
+49 error publish Failed PUT 403
+50 error Error: "You cannot publish over the previously published version 0.0.1." : node-red-contrib-lower
+50 error     at RegClient.<anonymous> (/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+50 error     at Request._callback (/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+50 error     at Request.self.callback (/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:123:22)
+50 error     at Request.EventEmitter.emit (events.js:98:17)
+50 error     at Request.<anonymous> (/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:893:14)
+50 error     at Request.EventEmitter.emit (events.js:117:20)
+50 error     at IncomingMessage.<anonymous> (/usr/share/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:844:12)
+50 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+50 error     at _stream_readable.js:919:16
+50 error     at process._tickCallback (node.js:419:13)
+51 error If you need help, you may report this *entire* log,
+51 error including the npm and node versions, at:
+51 error     <http://github.com/npm/npm/issues>
+52 error System Linux 2.6.38-8-generic
+53 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+54 error cwd /home/sinish/www/shiju/node-red-contrib-lowercase/node-red-contrib-lowercase
+55 error node -v v0.10.28
+56 error npm -v 1.4.9
+57 verbose exit [ 1, true ]
