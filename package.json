@@ -1,9 +1,13 @@
 {
     "name"         : "node-red-contrib-lower",
-    "version"      : "0.1.0",
+    "version"      : "0.1.1",
     "description"  : "A sample node for node-red to convert lower case",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/shijuamt/node-red-contrib-lowercase.git"
+     },
     "dependencies": {
-    },
+     },
     "keywords": [ "node-red" ],
     "node-red"     : {
         "nodes": {
