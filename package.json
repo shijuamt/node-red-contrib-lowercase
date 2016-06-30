@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-contrib-lower",
-    "version"      : "0.1.5",
+    "version"      : "0.1.6",
     "description"  : "A sample node for node-red to convert lower case",
     "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "author": "Shiju AMT",
     "node-red"     : {
         "nodes": {
-            "lower": "lower/lower.js"
+            "lower": "lower/lower-case.js"
         }
     },
     "license": "MIT"
